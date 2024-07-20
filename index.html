@@ -59,6 +59,23 @@
             margin: 0 0.5rem;
             text-decoration: none;
         }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            font-size: 1rem;
+        }
+        .contact-form button {
+            padding: 0.7rem;
+            font-size: 1rem;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
         @media (max-width: 600px) {
             .container {
                 width: 95%;
@@ -114,7 +131,13 @@
         </div>
         <div id="contact" class="contact">
             <h2>Contact Us</h2>
-            <p>If you have any questions, suggestions, or would like to share your own success story, please reach out to us at <a href="mailto:info@sharktanksuccess.com">info@sharktanksuccess.com</a>.</p>
+            <p>If you have any questions, suggestions, or would like to share your own success story, please reach out to us at <a href="mailto:info@sharktanksuccess.com">info@sharktanksuccess.com</a> or fill out the contact form below:</p>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
         </div>
         <div id="newsletter" class="newsletter">
             <h2>Subscribe to Our Newsletter</h2>
