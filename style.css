@@ -8,8 +8,8 @@ body {
 }
 
 header {
-    background-color: #243B55;
-    background-image: linear-gradient(315deg, #243B55 0%, #141E30 74%);
+    background-color: #40807b;
+    background-image: linear-gradient(315deg, #40807b 0%, #d09898 74%);
     color: #fff;
     padding: 2rem 0;
     text-align: center;
@@ -105,7 +105,7 @@ ul li {
 }
 
 footer {
-    background-color: #243B55;
+    background-color: #40807b;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
